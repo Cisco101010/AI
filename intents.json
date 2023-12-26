@@ -1,0 +1,235 @@
+{
+    "intents": [
+      {
+        "tag": "saludo",
+        "patterns": [
+          "1. Hola",
+          "2. ¿Qué tal?",
+          "3. Buen día",
+          "4. Como estas?",
+          "5. Hi",
+          "6. Saludos",
+          "7. ¡Hola!",
+          "8. ¿Cómo va todo?",
+          "9. ¿Cómo te encuentras?",
+          "10. Que lo que?"
+        ],
+        "responses": [
+          "1. ¡Hola!",
+          "2. ¡Hola! ¿En qué puedo ayudarte?",
+          "3. Hola, ¿cómo puedo asistirte?",
+          "4. Muy bien gracias, ¿cómo te puedo ayudar?",
+          "5. Hello!",
+          "6. Saludos, ¿en qué puedo colaborar?",
+          "7. ¡Hola! ¿Cómo estás?",
+          "8. ¿Todo bien? ¿En qué puedo ayudarte?",
+          "9. Estoy aquí para ayudarte. ¿En qué puedo asistirte?",
+          "10. ¡Hola! ¿Qué haces?"
+        ]
+      },
+      
+      {
+        "tag": "despedida",
+        "patterns": [
+          "1. Adiós",
+          "2. Hasta luego",
+          "3. Nos vemos"
+        ],
+        "responses": [
+          "1. ¡Adiós!",
+          "2. Hasta luego. ¡Que tengas un buen día!",
+          "3. Nos vemos pronto."
+        ]
+      },
+      
+      {
+        "tag": "ayuda",
+        "patterns": [
+          "1. Ayuda",
+          "2. ¿Puedes ayudarme?",
+          "3. Necesito asistencia",
+          "4. ¿Qué servicios ofreces?",
+          "5. Estoy perdido, ¿puedes orientarme?"
+        ],
+        "responses": [
+          "1. Claro, estaré encantado de ayudarte. ¿En qué puedo asistirte?",
+          "2. Por supuesto, ¿en qué necesitas ayuda?",
+          "3. ¿En qué puedo ayudarte?",
+          "4. Ofrezco asistencia en una variedad de temas, desde información general hasta responder preguntas específicas. ¿En qué puedo ayudarte?",
+          "5. Por supuesto, si estás perdido o necesitas orientación, no dudes en preguntar. Estoy aquí para ayudarte."
+        ]
+      },
+      
+  
+      {
+        "tag": "visual estudio code",
+        "patterns": [
+          "1. ¿Cómo puedo instalar Visual Studio Code?",
+          "2. ¿Qué es Visual Studio Code?",
+          "3. ¿Funciona en Linux?",
+          "4. Uso de Visual Studio Code",
+          "5. ¿Cuáles son las ventajas de Visual Studio Code frente a otros editores de código?",
+          "6. ¿Cómo puedo personalizar Visual Studio Code?",
+          "7. ¿Existen extensiones recomendadas para Visual Studio Code?",
+          "8. ¿Puedo depurar código en Visual Studio Code?",
+          "9. ¿Visual Studio Code es gratuito?",
+          "10. ¿Cómo puedo abrir un proyecto existente en Visual Studio Code?"
+        ],
+        "responses": [
+          "1. Puedes descargar Visual Studio Code desde el sitio web oficial de Microsoft y seguir las instrucciones de instalación para tu sistema operativo.",
+          "2. Visual Studio Code, también conocido como VS Code, es un editor de código fuente gratuito y de código abierto desarrollado por Microsoft. Es muy popular entre los desarrolladores por su ligereza y su amplia gama de extensiones.",
+          "3. Sí, Visual Studio Code es compatible con Linux. Está disponible para distribuciones de Linux, como Ubuntu, y se puede instalar siguiendo las instrucciones específicas de la distribución.",
+          "4. Visual Studio Code es conocido por su facilidad de uso y su capacidad de personalización. Ofrece una amplia variedad de extensiones para diferentes lenguajes de programación y tareas de desarrollo.",
+          "5. Las ventajas de Visual Studio Code incluyen una amplia comunidad de desarrolladores, integración con herramientas de desarrollo populares, soporte para múltiples lenguajes de programación y un ecosistema de extensiones activo que permite personalizar tu entorno de desarrollo.",
+          "6. Puedes personalizar Visual Studio Code a través de la instalación de extensiones y la configuración de ajustes específicos para adaptarlo a tus necesidades de desarrollo.",
+          "7. Sí, existen muchas extensiones recomendadas para Visual Studio Code, como 'ESLint' para el soporte de JavaScript, 'Python' para desarrollo en Python, 'GitLens' para integración con Git, entre otras.",
+          "8. Sí, Visual Studio Code ofrece herramientas de depuración integradas para varios lenguajes de programación. Puedes configurar puntos de interrupción y realizar un seguimiento detallado de la ejecución de tu código.",
+          "9. Sí, Visual Studio Code es un editor gratuito y de código abierto disponible para Windows, macOS y Linux.",
+          "10. Para abrir un proyecto existente en Visual Studio Code, puedes seleccionar 'File' (Archivo) > 'Open Folder' (Abrir carpeta) y elegir la carpeta raíz de tu proyecto."
+        ]
+      },
+      
+      
+      {
+        "tag": "pregunta_frecuente",
+        "patterns": [
+          "1. ¿Cuál es tu nombre?",
+          "2. ¿Quién eres?",
+          "3. ¿De dónde eres?",
+          "4. ¿Cómo funcionas?",
+          "5. ¿En qué puedes ayudarme?",
+          "6. ¿Tienes emociones?",
+          "7. ¿Qué tecnología está detrás de ti?",
+          "8. ¿Puedes contarme un chiste?",
+          "9. ¿Puedes hacer cálculos matemáticos?",
+          "10. ¿Cuál es tu propósito?"
+        ],
+        "responses": [
+          "1. Soy Yarvis AI, un asistente virtual.",
+          "2. Puedes llamarme Yarvis AI. Estoy aquí para ayudarte.",
+          "3. Soy Yarvis, un chatbot desarrollado para ayudarte.",
+          "4. Funciono utilizando el procesamiento de lenguaje natural y una base de conocimientos.",
+          "5. Estoy aquí para responder tus preguntas y brindarte información.",
+          "6. No tengo emociones ni conciencia, soy una inteligencia artificial.",
+          "7. Estoy basado en la tecnología de IA desarrollada por OpenAI.",
+          "8. Claro, aquí tienes uno: ¿Por qué los programadores siempre confunden Halloween con Navidad? Porque Oct 31 == Dec 25.",
+          "9. Sí, puedo realizar cálculos matemáticos, ¿en qué necesitas ayuda?",
+          "10. Mi propósito es asistirte proporcionando información y respuestas a tus preguntas."
+        ]
+      },
+      
+      
+  
+      {
+        "tag": "no_entendido",
+        "patterns": [
+          "1. No entiendo",
+          "2. Confuso",
+          "3. Explica de nuevo",
+          "4. Que es hacking?"
+        ],
+        "responses": [
+          "1. Lo siento, no comprendo. ¿Puedes reformular tu pregunta?",
+          "2. Parece que estoy confundido. ¿Puedes proporcionar más detalles?",
+          "3. No logro entender. ¿Puedes explicar de nuevo?",
+          "4. Hacking es penetrar sistemas"
+        ]
+      },
+      
+  
+      {
+        "tag": "arboles binarios",
+        "patterns": [
+          "1. ¿Qué es un árbol binario?",
+          "2. ¿Qué es un árbol binario de búsqueda balanceado?",
+          "3. ¿Cuál es la importancia de la propiedad de balanceo en un árbol binario?",
+          "4. ¿Cómo se implementa un árbol binario en programación?",
+          "5. ¿Qué es la altura balanceada en un árbol binario?",
+          "6. ¿Cuáles son las aplicaciones comunes de los árboles binarios en la informática?",
+          "7. ¿Cuál es la diferencia entre un árbol binario completo y un árbol binario perfecto?",
+          "8. ¿Qué es la operación de búsqueda en un árbol binario de búsqueda?",
+          "9. ¿Cómo se encuentra el nodo más pequeño (mínimo) en un árbol binario de búsqueda?",
+          "10. ¿Cuál es la complejidad temporal típica de las operaciones en un árbol binario balanceado?",
+          "11. ¿Qué es un árbol binario de expresión y cuál es su utilidad en la evaluación de expresiones matemáticas?",
+          "12. ¿Cuál es el propósito de un árbol binario de Huffman en compresión de datos?",
+          "13. ¿Cómo se realiza la eliminación de un nodo en un árbol binario de búsqueda?",
+          "14. ¿Qué son los árboles binarios de múltiples vías y cómo se diferencian de los árboles binarios estándar?",
+          "15. ¿Cuál es la complejidad temporal de la inserción de un elemento en un árbol binario balanceado?"
+        ],
+        "responses": [
+          "1. Un árbol binario es una estructura de datos jerárquica compuesta por nodos, donde cada nodo tiene, a lo sumo, dos hijos: uno izquierdo y uno derecho.",
+          "2. Un árbol binario de búsqueda balanceado es un tipo de árbol en el que las alturas de los subárboles izquierdo y derecho de cada nodo difieren en un máximo de 1.",
+          "3. La propiedad de balanceo en un árbol binario es esencial para operaciones eficientes como búsqueda, inserción y eliminación.",
+          "4. En programación, un árbol binario se implementa usando nodos con referencias a sus hijos izquierdo y derecho.",
+          "5. La altura balanceada en un árbol binario se refiere a que la diferencia de altura entre subárboles izquierdo y derecho es limitada.",
+          "6. Los árboles binarios se utilizan ampliamente en informática para estructuras de datos, análisis sintáctico, compresión de datos y algoritmos de búsqueda y recorrido.",
+          "7. Un árbol binario completo es un árbol en el que todos los niveles están completamente llenos, excepto posiblemente el último nivel, que se llena de izquierda a derecha. Un árbol binario perfecto es un tipo especial de árbol binario completo en el que todos los niveles están llenos.",
+          "8. La operación de búsqueda en un árbol binario de búsqueda implica comparar el valor buscado con el valor del nodo actual. Se inicia desde la raíz y se sigue hacia abajo en el subárbol izquierdo o derecho según sea necesario hasta encontrar el valor o llegar a un nodo hoja.",
+          "9. Para encontrar el nodo más pequeño (mínimo) en un árbol binario de búsqueda, se sigue el camino hacia la izquierda desde la raíz hasta encontrar un nodo hoja. El nodo hoja en la parte más a la izquierda contendrá el valor mínimo.",
+          "10. En un árbol binario balanceado, como un árbol AVL, las operaciones de búsqueda, inserción y eliminación suelen tener una complejidad temporal de O(log n), donde 'n' es el número de nodos en el árbol.",
+          "11. Un árbol binario de expresión es una estructura de datos que se utiliza para representar expresiones matemáticas. Facilita la evaluación de expresiones aritméticas mediante un recorrido en orden (inorden) del árbol.",
+          "12. Un árbol binario de Huffman es un tipo de árbol binario utilizado en compresión de datos. Asigna códigos de longitud variable a símbolos, lo que permite comprimir datos al representar símbolos comunes con códigos más cortos.",
+          "13. La eliminación de un nodo en un árbol binario de búsqueda implica encontrar el nodo a eliminar, lo que puede requerir recorrer el árbol. Luego, se consideran tres casos: 1. Si el nodo a eliminar es una hoja, se elimina directamente. 2. Si el nodo tiene un solo hijo, se reemplaza por ese hijo. 3. Si el nodo tiene dos hijos, se encuentra el sucesor inmediato, se copia su valor al nodo a eliminar y se elimina el sucesor.",
+          "14. Los árboles binarios de múltiples vías son árboles en los que cada nodo puede tener más de dos hijos, a diferencia de los árboles binarios estándar que tienen como máximo dos hijos. Esto los hace adecuados para aplicaciones específicas, como árboles B y árboles B+ en bases de datos.",
+          "15. La complejidad temporal de la inserción de un elemento en un árbol binario balanceado depende del tipo de árbol, pero suele ser O(log n), donde 'n' es el número de nodos en el árbol."
+        ]
+      },
+      
+  
+      {
+        "tag": "comandos_linux",
+        "patterns": [
+          "1.Como actualizar linux?",
+          "2.Como installar paquetes de linux?",
+          "3.Como usar nano en kali linux?",
+          "4.Como cambiar la contrasena de linux?",
+          "5.Como reinciar el sistema en linux",
+          "6.Que es una kernel en linux?",
+          "7.Como verificar la version de kali linux?",
+          "8.Como crear un nuevo directorio en kali linux?",
+          "9.Que es un archivo de configuracion en linux?",
+          "10.Como cambiar los permisos de archivo en linux?"
+        ],
+        "responses": [
+          "1. Para actualizar Kali Linux, utiliza el comando 'sudo apt update && sudo apt upgrade'.",
+          "2. Para instalar paquetes en Kali Linux, emplea 'sudo apt install nombre_del_paquete'.",
+          "3. El comando 'nano' es un editor de texto en la terminal de Linux. Puedes abrir un archivo con 'nano nombre_del_archivo' y utilizar Ctrl + X para salir, guardando los cambios si es necesario.",
+          "4. Para cambiar la contraseña en Linux, utiliza el comando 'passwd' seguido del nombre de usuario.",
+          "5. Para reiniciar el sistema en Linux, puedes utilizar 'sudo reboot' o 'sudo shutdown -r now' en la terminal.",
+          "6. El kernel en Linux es el núcleo del sistema operativo que gestiona recursos y permite que los programas se ejecuten. Es esencial para el funcionamiento del sistema.",
+          "7. Para verificar la versión de Kali Linux, puedes usar el comando 'lsb_release -a' en la terminal.",
+          "8. Para crear un nuevo directorio en la terminal de Linux, utiliza 'mkdir nombre_del_directorio'.",
+          "9. Un archivo de configuración en Linux es un archivo que contiene ajustes y preferencias para aplicaciones y el sistema en sí.",
+          "10. Para cambiar los permisos de un archivo en Linux, emplea 'chmod' seguido de opciones para modificar los permisos, como 'chmod 755 nombre_del_archivo' para dar permisos de lectura, escritura y ejecución al propietario y permisos de lectura y ejecución a otros usuarios."
+        ]
+      },
+      
+      {
+        "tag": "nmap_info",
+        "patterns": [
+          "1. ¿Qué es nmap?",
+          "2. Uso de nmap",
+          "3. ¿Cuáles son los usos comunes de nmap?",
+          "4. Explícame el escaneo de puertos en nmap",
+          "5. ¿Qué es un escaneo de ping en nmap?",
+          "6. ¿Cuál es la diferencia entre el escaneo TCP y el escaneo UDP en nmap?",
+          "7. ¿Cómo puedo guardar los resultados de un escaneo de nmap en un archivo?",
+          "8. ¿Puedes recomendarme opciones avanzadas de nmap para escaneos más específicos?",
+          "9. ¿Nmap es legal?"
+        ],
+        "responses": [
+          "1. Nmap es una herramienta de escaneo de redes. Se utiliza para descubrir hosts y servicios en una red mediante la creación de un mapa de la red.",
+          "2. Puedes usar nmap con opciones como 'nmap -sn IP_Address' para un escaneo de ping o 'nmap -A IP_Address' para un escaneo detallado.",
+          "3. Nmap se utiliza comúnmente para auditar la seguridad de redes, administrar activos de red, descubrir vulnerabilidades y evaluar la topología de la red.",
+          "4. El escaneo de puertos en nmap implica verificar qué puertos están abiertos en un host. Puedes realizarlo con 'nmap -p puerto IP_Address' para escanear un puerto específico o 'nmap -p- IP_Address' para escanear todos los puertos.",
+          "5. El escaneo de ping en nmap (ICMP Echo Request) se utiliza para verificar si un host responde a pings. Puedes hacerlo con 'nmap -sn IP_Address'.",
+          "6. El escaneo TCP examina la conectividad de red en capa 4, mientras que el escaneo UDP se centra en el transporte de capa 4. El escaneo TCP es más común y verifica la conectividad en la mayoría de los casos.",
+          "7. Para guardar los resultados de un escaneo de nmap en un archivo, utiliza el operador de redirección '>', por ejemplo, 'nmap -A IP_Address > resultados.txt' para guardarlos en un archivo llamado resultados.txt.",
+          "8. Opciones avanzadas de nmap incluyen '-T intensidad' para controlar la velocidad del escaneo, '--script' para ejecutar secuencias de comandos de NSE, '--traceroute' para rastrear la ruta y más.",
+          "9. Sí, nmap es legal, pero debes utilizarlo de manera ética y respetar las leyes y políticas de seguridad de la red. No debes utilizarlo sin autorización en redes que no te pertenecen o no tienes permiso para escanear."
+        ]
+      }
+      
+    ]
+  }
+  
